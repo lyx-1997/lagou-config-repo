@@ -1,9 +1,8 @@
-spring:
   application:
-    name: lagou-service-resume
+    name: assignment-user-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/lagou?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/lagou_user?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: root
   jpa:
@@ -11,6 +10,6 @@ spring:
     show-sql: true
     hibernate:
       naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #避免将驼峰命名转换为下划线命名 
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #避免将驼峰命名转换为下划线命名
 lagou:
   message: hello lagou,200
