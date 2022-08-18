@@ -1,3 +1,4 @@
+spring:
   application:
     name: assignment-user-service
   datasource:
@@ -10,6 +11,6 @@
     show-sql: true
     hibernate:
       naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #避免将驼峰命名转换为下划线命名
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #避免将驼峰命名转换为下划线命名 
 lagou:
   message: hello lagou,200
