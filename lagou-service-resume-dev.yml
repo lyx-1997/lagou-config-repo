@@ -13,5 +13,5 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #避免将驼峰命名转换为下划线命名 
 brushStroke:
-  time: 1
-  number: 10
+  time: 5
+  number: 3
